@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { 
   MagnifyingGlassIcon, 
   BellIcon,
@@ -54,14 +53,8 @@ const Header = () => {
             </div>
 
             {/* Profile Image */}
-            <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-purple-400 cursor-pointer hover:border-purple-300 transition-colors">
-              <Image
-                src="/api/placeholder/40/40"
-                alt="Profile"
-                width={40}
-                height={40}
-                className="w-full h-full object-cover"
-              />
+            <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-purple-400 cursor-pointer hover:border-purple-300 transition-colors bg-gradient-to-br from-purple-400 to-pink-400 flex items-center justify-center">
+              <span className="text-white font-semibold text-sm">JD</span>
             </div>
           </nav>
 
@@ -104,14 +97,8 @@ const Header = () => {
               <span>Notifications</span>
             </div>
             <div className="flex items-center space-x-2 text-white py-2">
-              <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-purple-400">
-                <Image
-                  src="/api/placeholder/32/32"
-                  alt="Profile"
-                  width={32}
-                  height={32}
-                  className="w-full h-full object-cover"
-                />
+              <div className="w-8 h-8 rounded-full overflow-hidden border-2 border-purple-400 bg-gradient-to-br from-purple-400 to-pink-400 flex items-center justify-center">
+                <span className="text-white font-semibold text-xs">JD</span>
               </div>
               <span>Profile</span>
             </div>
