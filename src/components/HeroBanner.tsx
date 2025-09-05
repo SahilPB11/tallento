@@ -59,6 +59,39 @@ const HeroBanner = () => {
           </div>
         </div>
 
+
+         {/* Features Grid */}
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
+          {/* Top 1% candidates */}
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <TrophyIcon className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-white font-semibold text-lg mb-2">Top 1% candidates,</h3>
+            <p className="text-gray-300 text-sm">3x faster hiring</p>
+          </div>
+
+          {/* Streamlined hiring */}
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <SparklesIcon className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-white font-semibold text-lg mb-2">Streamlined hiring</h3>
+            <p className="text-gray-300 text-sm">with AI screening</p>
+          </div>
+
+          {/* Advanced filtering */}
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <FunnelIcon className="w-8 h-8 text-white" />
+            </div>
+            <h3 className="text-white font-semibold text-lg mb-2">Advanced filtering</h3>
+            <p className="text-gray-300 text-sm">& instant scheduling</p>
+          </div>
+        </div>
+
+        
+
       </div>
     </section>
   );
