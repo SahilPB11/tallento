@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tallento.ai - Full Stack Developer Task
 
-## Getting Started
 
-First, run the development server:
+## 🚀 Quick Start
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+Make sure you have the following installed:
+- **Node.js** (v18 or higher)
+- **npm** (comes with Node.js)
+
+### Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd tallento
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+
+### Available Scripts
+
+- `npm run dev` - Starts the development server with Turbopack
+- `npm run build` - Creates an optimized production build
+- `npm start` - Runs the production server
+- `npm run lint` - Runs ESLint for code quality checks
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.5.2 with App Router
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
+- **Icons**: Heroicons React
+- **Fonts**: Geist Sans & Geist Mono
+- **Development**: Turbopack for faster builds
+
+## 📁 Project Structure
+
+```
+tallento/
+├── src/
+│   ├── app/
+│   │   ├── globals.css       # Global styles with Tailwind imports
+│   │   ├── layout.tsx        # Root layout with font configuration
+│   │   └── page.tsx          # Homepage combining Header + HeroBanner
+│   └── components/
+│       ├── Header.tsx        # Navigation header component
+│       └── HeroBanner.tsx    # Main hero section component
+├── public/                   # Static assets
+├── package.json             # Dependencies and scripts
+├── tailwind.config.ts       # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+└── next.config.ts          # Next.js configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Color Scheme
+- **Primary Gradient**: Purple → Indigo → Blue
+- **Accent Gradients**: Pink → Orange, Purple → Pink
+- **Text Colors**: White, Gray variations for contrast
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Responsive Design
+- **Mobile-first** approach with Tailwind breakpoints
+- **Flexible layouts** using CSS Grid and Flexbox
+- **Adaptive typography** scaling across devices
+- **Interactive hover states** and smooth transitions
 
-## Learn More
+### Modern UI Elements
+- **Glassmorphism effects** with backdrop blur
+- **Gradient text** using `bg-clip-text`
+- **Rounded corners** and soft shadows
+- **Icon integration** with Heroicons
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Development Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tailwind CSS v4
+This project uses the latest Tailwind CSS v4 with the new configuration approach:
+- No separate `tailwind.config.js` file needed
+- Direct `@import "tailwindcss"` in CSS
+- PostCSS configuration in `postcss.config.mjs`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Component Architecture
+- **Functional components** with TypeScript
+- **Props-based** design for reusability
+- **Modular structure** for easy maintenance
+- **Responsive-first** implementation
 
-## Deploy on Vercel
+## 🚀 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Vercel (Recommended)
+```bash
+npm run build
+```
+Then deploy to [Vercel](https://vercel.com) for automatic deployment.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Other Platforms
+The project can be deployed to any platform that supports Node.js:
+- Netlify
+- Railway
+- Heroku
+- AWS
+- DigitalOcean
+
+## 📸 Screenshots
+
+The implemented design matches the provided reference images:
+- Header with navigation and branding
+- Hero banner with search functionality
+- Feature cards and statistics
+- Responsive mobile design
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is created as part of a Full Stack Developer task demonstration.
+
+---
+
+**Built with ❤️ for Tallento.ai**
