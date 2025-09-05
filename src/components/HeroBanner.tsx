@@ -90,7 +90,16 @@ const HeroBanner = () => {
           </div>
         </div>
 
-        
+        {/* Description Paragraph */}
+        <div className="text-center mb-16 max-w-4xl mx-auto">
+          <p className="text-gray-300 text-lg leading-relaxed">
+            Empowering education, coaching, and tech sectors to hire verified, 
+            ready-to-join talent faster. Find high-paying jobs that match 
+            your skills and goals with AI-powered screening, instant interview scheduling, and 24/7 job alerts.
+          </p>
+        </div>
+
+       
 
       </div>
     </section>
