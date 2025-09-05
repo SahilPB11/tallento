@@ -99,7 +99,26 @@ const HeroBanner = () => {
           </p>
         </div>
 
-       
+        {/* Statistics Cards */}
+        <div className="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto pb-16">
+          {/* Jobs Available */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center">
+            <div className="text-3xl lg:text-4xl font-bold text-white mb-2">7500+</div>
+            <div className="text-gray-300 text-sm lg:text-base">Jobs Available</div>
+          </div>
+
+          {/* Companies Hiring */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center">
+            <div className="text-3xl lg:text-4xl font-bold text-white mb-2">5500+</div>
+            <div className="text-gray-300 text-sm lg:text-base">Companies Hiring</div>
+          </div>
+
+          {/* Candidates */}
+          <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/20 text-center">
+            <div className="text-3xl lg:text-4xl font-bold text-white mb-2">1M+</div>
+            <div className="text-gray-300 text-sm lg:text-base">Candidates</div>
+          </div>
+        </div>
 
       </div>
     </section>
