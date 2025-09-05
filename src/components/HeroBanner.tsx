@@ -44,7 +44,20 @@ const HeroBanner = () => {
           </div>
         </div>
 
-        
+            {/* Suggested Tags */}
+            <div className="text-center mb-16">
+          <div className="flex flex-wrap justify-center gap-3 max-w-2xl mx-auto">
+            <span className="bg-white/10 text-white px-4 py-2 rounded-full text-sm border border-white/20 hover:bg-white/20 transition-colors cursor-pointer">
+              Social Science Teacher
+            </span>
+            <span className="bg-white/10 text-white px-4 py-2 rounded-full text-sm border border-white/20 hover:bg-white/20 transition-colors cursor-pointer">
+              Math Faculty
+            </span>
+            <span className="bg-white/10 text-white px-4 py-2 rounded-full text-sm border border-white/20 hover:bg-white/20 transition-colors cursor-pointer">
+              Physics JEE Expert
+            </span>
+          </div>
+        </div>
 
       </div>
     </section>
